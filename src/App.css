@@ -1,0 +1,44 @@
+body {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: white;
+  background-color: #f18c8e;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AddHouseForm {
+  padding: 3em;
+  border: 3px dashed #568ea6;
+}
+  
+.house-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  border: 3px solid #568ea6;
+  border-radius: 10px;
+  margin-top: 1em;
+  background-color: #f18c8e;
+}
+
+.button-delete {
+  background-color: white;
+  color: #305f72
+}
+.text-shadow {
+  text-shadow: rgb(103, 103, 103) 3px 3px 10px;
+}
